@@ -1,0 +1,26 @@
+{
+  "name": "html-boilerplate",
+  "version": "0.0.1",
+  "description": "Simple boilerplate",
+  "scripts": {
+    "pug:watch": "pug -w src/markup/index.pug -o ./build",
+    "pug:build": "pug src/markup/index.pug -o ./build"
+  },
+  "keywords": [
+    "Pug",
+    "Tailwind",
+    "Rollup"
+  ],
+  "author": "Rick Daalhuizen",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^2.0.4",
+    "jstransformer-markdown-it": "^2.1.0",
+    "jstransformer-sass": "^1.0.0",
+    "tailwindcss": "^1.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "rollup": "^2.1.0"
+  }
+}

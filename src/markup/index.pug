@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+  head
+    include components/head.pug
+    include mixins/google.pug
+  body
+    +ga(1234)
+
+    .article
+      include:markdown-it ../content/hello.md
+    
+    include layouts/default.pug
+
+    include components/footer.pug
